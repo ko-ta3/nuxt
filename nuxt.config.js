@@ -33,8 +33,12 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/axios.js'
   ],
-
+  env: {
+    QIITA_TOKEN: 'ddb6542b7338adf0d9ea2fec8c19e4799a78c428',
+    TEST_KEY: 'hogehoge'
+  },
   /*
   ** Nuxt.js modules
   */
